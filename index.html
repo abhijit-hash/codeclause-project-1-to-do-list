@@ -10,14 +10,20 @@
 </head>
 <body>
     
-   <main>
-        <div class="box">
-            <input type="text" id="item" autofocus placeholder="write something here...">
-            <ul id="to-do-box">
+   <div class="container">
+        <div class="todo-app">
+            <h2>To-Do List
+                <img src="icon.png">
+            </h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Write Something Here">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
                
             </ul>
         </div>
-   </main>
+   </div>
 
     <script src="script.js"></script>
 </body>
